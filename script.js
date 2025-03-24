@@ -8,6 +8,8 @@ function createTable() {
 			alert("Please enter valid positive numbers!");
 			return 
 		}
+
+	table.innerHTML = ""
 	for(let i=0;i<rows;i++){
 		let rowsInsert = document.createElement("tr");
 		  for(let j=0;j<columns;j++){
